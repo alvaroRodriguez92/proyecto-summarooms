@@ -4,12 +4,9 @@ import { Grid, Typography } from "@mui/material";
 export default function Revenue(){
     return(
         
-        <Grid container sx={{ p: 16, display: "flex", flexDirection: "column" }}>
+        <Grid id="revenue" container sx={{ p: 8, display: "flex", flexDirection: "column" }}>
             <Grid item xs={12}>
             <Grid container sx={{ display: "flex", flexDirection: "column" }}>
-          {/* <Grid item sx={{ m: "0 auto" }}>
-            <img src="../../src/assets/logo-summarooms.png" />
-          </Grid> */}
           <Grid item sx={{ m: "0 auto" }}>
             <Typography
               sx={{ fontSize: "40px", fontWeight: "300" }}
@@ -39,11 +36,11 @@ export default function Revenue(){
         </Grid>
         <Grid item xs={12} sx={{mt:5}}>
             <Grid container>
-                <Grid item xs={8}>
-            <img src="../../src/assets/grafica-revenue.png"/>
+                <Grid item xs={12} lg={12} xl={8}>
+            <img className="img-responsive" src="../../src/assets/grafica-revenue.png"/>
             </Grid>
-            <Grid item xs={4}>
-            <img width="70%" height="90%" src="../../src/assets/foto-revenue.jpg"/>
+            <Grid item lg={12} xl={4} sx={{pb:20}}>
+            <img className="img2-responsive" src="../../src/assets/foto-revenue.jpg"/>
             </Grid>
             </Grid>
             </Grid>

@@ -2,8 +2,8 @@ import { Grid, Typography } from "@mui/material";
 
 export default function Nosotros() {
   return (
-    <Grid container sx={{ p: 16, display: "flex", flexDirection: "row" }}>
-      <Grid item xs={4}>
+    <Grid id="nosotros" container sx={{ p: 8, display: "flex", flexDirection: "row" }}>
+      <Grid item md={12} lg={12} xl={4}>
         <Grid container sx={{ display: "flex", flexDirection: "column" }}>
           <Grid item sx={{ m: "0 auto" }}>
             <img src="../../src/assets/logo-summarooms.png" />
@@ -39,16 +39,16 @@ export default function Nosotros() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={8}>
+      <Grid item xs={12} md={12} lg={12} xl={8}>
         <Grid container>
-          <Grid item sx={{p:1}}>
-            <img src="../../src/assets/foto1.bmp" />
+          <Grid item xs={4} sx={{p:1}}>
+            <img className="img3-responsive" src="../../src/assets/foto1.bmp" />
           </Grid>
-          <Grid item sx={{p:1}}>
-            <img src="../../src/assets/foto2.bmp" />
+          <Grid xs={4} item sx={{p:1}}>
+            <img className="img3-responsive" src="../../src/assets/foto2.bmp" />
           </Grid>
-          <Grid item sx={{p:1}}>
-            <img src="../../src/assets/foto3.bmp" />
+          <Grid xs={4} item sx={{p:1}}>
+            <img className="img3-responsive" src="../../src/assets/foto3.bmp" />
           </Grid>
         </Grid>
       </Grid>

@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+a{
+    text-decoration: none;
+}
+
+.img-responsive {
+  width: 90%;
+  height: 100%;
+}
+
+.img2-responsive {
+  width: 60%;
+  height: 90%;
+  padding-top: 88px;
+}
+
+@media only screen and (max-width: 700px) {
+  .img-responsive {
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .img2-responsive {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .img3-responsive {
+    width: 100%;
+  }
+}

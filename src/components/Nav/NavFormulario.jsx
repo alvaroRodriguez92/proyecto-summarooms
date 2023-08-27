@@ -12,9 +12,9 @@ import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
 
-const pages = [{nombre:'¿Quienes somos?', href:"#nosotros"}, {nombre:'Revenue Management', href:"#revenue"}, {nombre:"Proyectos", href:"#"}, {nombre:"Contáctanos", href:"/contacto"}];
+const pages = [""];
 
-export default function Nav() {
+export default function NavFormulario() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
