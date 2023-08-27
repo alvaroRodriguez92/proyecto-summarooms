@@ -12,7 +12,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
-      <Route path="/contacto" element={<Contacto/>}></Route>
+      <Route path="contacto" element={<Contacto/>}></Route>
     </Routes>
     </ThemeProvider>
     </BrowserRouter>

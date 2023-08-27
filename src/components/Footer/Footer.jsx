@@ -20,7 +20,7 @@ export default function Footer() {
       }}
     >
       <Grid item xs={12} md={6} xl={6} sx={{pb:3,px: 25}}>
-        <img src="../../src/assets/Summarooms-blanco (1).png" />
+        <img src="../Summarooms-blanco (1).png" />
       </Grid>
       <Grid item xs={12} md={6} xl={6} sx={{display: "flex", flexDirection: "column" }}>
         <Grid container>

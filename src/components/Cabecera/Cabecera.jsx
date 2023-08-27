@@ -7,7 +7,7 @@ export default function Cabecera() {
       sx={{
         height: "800px",
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../../src/assets/iniciosummarooms.jpg)",
+          "linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../iniciosummarooms.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center bottom",
         overflow: "hidden",

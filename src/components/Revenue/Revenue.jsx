@@ -37,10 +37,10 @@ export default function Revenue(){
         <Grid item xs={12} sx={{mt:5}}>
             <Grid container>
                 <Grid item xs={12} lg={12} xl={8}>
-            <img className="img-responsive" src="../../src/assets/grafica-revenue.png"/>
+            <img className="img-responsive" src="../grafica-revenue.png"/>
             </Grid>
             <Grid item lg={12} xl={4} sx={{pb:20}}>
-            <img className="img2-responsive" src="../../src/assets/foto-revenue.jpg"/>
+            <img className="img2-responsive" src="../foto-revenue.jpg"/>
             </Grid>
             </Grid>
             </Grid>

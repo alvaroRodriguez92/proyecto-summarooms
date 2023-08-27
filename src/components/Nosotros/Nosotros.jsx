@@ -6,7 +6,7 @@ export default function Nosotros() {
       <Grid item md={12} lg={12} xl={4}>
         <Grid container sx={{ display: "flex", flexDirection: "column" }}>
           <Grid item sx={{ m: "0 auto" }}>
-            <img src="../../src/assets/logo-summarooms.png" />
+            <img src="../logo-summarooms.png" />
           </Grid>
           <Grid item sx={{ m: "0 auto" }}>
             <Typography
@@ -42,13 +42,13 @@ export default function Nosotros() {
       <Grid item xs={12} md={12} lg={12} xl={8}>
         <Grid container>
           <Grid item xs={4} sx={{p:1}}>
-            <img className="img3-responsive" src="../../src/assets/foto1.bmp" />
+            <img className="img3-responsive" src="../foto1.bmp" />
           </Grid>
           <Grid xs={4} item sx={{p:1}}>
-            <img className="img3-responsive" src="../../src/assets/foto2.bmp" />
+            <img className="img3-responsive" src="../foto2.bmp" />
           </Grid>
           <Grid xs={4} item sx={{p:1}}>
-            <img className="img3-responsive" src="../../src/assets/foto3.bmp" />
+            <img className="img3-responsive" src="../foto3.bmp" />
           </Grid>
         </Grid>
       </Grid>

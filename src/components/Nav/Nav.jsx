@@ -33,7 +33,7 @@ export default function Nav() {
         <Toolbar sx={{justifyContent:"space-between"}}>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
           <Box sx={{p:2, pl:5}}>
-          <Link to="/"><img width="60%" src="../../src/assets/Summarooms-blanco (1).png"/></Link>
+          <Link to="/"><img width="60%" src="../Summarooms-blanco (1).png"/></Link>
           </Box>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
